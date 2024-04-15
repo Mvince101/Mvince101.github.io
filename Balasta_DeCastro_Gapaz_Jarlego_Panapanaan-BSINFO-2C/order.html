@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="order.css">
+</head>
+<body> 
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Coco Lemon</a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="bx bx-x"></span>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="https://maps.app.goo.gl/FPQ3oU7A9Qu2iCSA7">Stores</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <span id="menu-btn" class="bx bx-menu"></span>
+        </nav>
+    </header>
+
+    <div class="container">
+
+            <div class="products-container"> 
+
+            <div class="product" data-name="p-1">
+            <img src="images/small.jpg" alt="small">
+            <h3>Small</h3>
+            <div class="price">₱10.00</div>
+            </div> 
+            
+            <div class="product" data-name="p-2">
+                <img src="images/medium.jpg" alt="medium">
+                <h3>Medium</h3>
+                <div class="price">₱20.00</div>
+                </div>
+
+                <div class="product" data-name="p-3">
+                    <img src="images/large.jpg" alt="large">
+                    <h3>Large</h3>
+                    <div class="price">₱30.00</div>
+                    </div>
+
+                    <div class="product" data-name="p-4">
+                        <img src="images/small.jpg" alt="small_with_yakult">
+                        <h3>Small with Yakult</h3>
+                        <div class="price">₱22.00</div>
+                        </div> 
+                        
+                        <div class="product" data-name="p-5">
+                            <img src="images/medium.jpg" alt="medium_with_yakult">
+                            <h3>Medium with Yakult</h3>
+                            <div class="price">₱32.00</div>
+                            </div>
+            
+                            <div class="product" data-name="p-6">
+                                <img src="images/large.jpg" alt="large_with_yakult">
+                                <h3>Large with Yakult</h3>
+                                <div class="price">₱42.00</div>
+                                </div>
+
+            </div>
+
+    </div>
+
+    <div class="products-preview">
+
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="images/small.jpg" alt="small">
+            <h3>Small</h3>
+            <p>#oz</p>
+            <div class="price">₱10.00</div>
+            <div class="buttons">
+                <a href="#" class="buy">Buy Now</a>
+                <a href="#" class="add">Add</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="images/medium.jpg" alt="medium">
+            <h3>Medium</h3>
+            <p> #oz </p>
+            <div class="price">₱20.00</div>
+            <div class="buttons">
+                <a href="#" class="buy">Buy Now</a>
+                <a href="#" class="add">Add</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-3">
+             <i class="fas fa-times"></i>
+            <img src="images/large.jpg" alt="Large">
+            <h3>Large</h3>
+            <p> #oz </p>
+            <div class="price">₱30.00</div>
+            <div class="buttons">
+                <a href="#" class="buy">Buy Now</a>
+                <a href="#" class="add">Add</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <img src="images/small.jpg" alt="small">
+            <h3>Small with Yakult</h3>
+            <p>#oz</p>
+            <div class="price">₱22.00</div>
+            <div class="buttons">
+                <a href="#" class="buy">Buy Now</a>
+                <a href="#" class="add">Add</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <img src="images/medium.jpg" alt="medium">
+            <h3>Medium with Yakult</h3>
+            <p> #oz </p>
+            <div class="price">₱32.00</div>
+            <div class="buttons">
+                <a href="#" class="buy">Buy Now</a>
+                <a href="#" class="add">Add</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-6">
+             <i class="fas fa-times"></i>
+            <img src="images/large.jpg" alt="Large">
+            <h3>Large with Yakult</h3>
+            <p> #oz </p>
+            <div class="price">₱42.00</div>
+            <div class="buttons">
+                <a href="#" class="buy">Buy Now</a>
+                <a href="#" class="add">Add</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="order.js" defer></script>
+</body>
+</html>

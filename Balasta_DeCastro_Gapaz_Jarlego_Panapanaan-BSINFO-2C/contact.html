@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Contact Us Form  | CodingLab </title>
+    <link rel="stylesheet" href="contact.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+   </head>
+<body>
+    <header>
+        <nav class="navbar">
+          <a class="logo" href="#">Coco Lemon<span></span></a>
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="https://maps.app.goo.gl/FPQ3oU7A9Qu2iCSA7">Stores</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+      </header>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">San Pablo City</div>
+          <div class="text-two">Laguna</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+639 0789 93759</div>
+          <div class="text-two">+639 2827 28837</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">melpanapanaan@gmail.com</div>
+          <div class="text-two">melememe@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+
+  <script>
+    const header = document.querySelector("header");
+    const hamburgerBtn = document.querySelector("#hamburger-btn");
+    const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+    hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+
+  
+    closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+
+
+    
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us Section</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="aboutus.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/
+        all.css">
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+          <a class="logo" href="#">Coco Lemon<span></span></a>
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="https://maps.app.goo.gl/FPQ3oU7A9Qu2iCSA7">Stores</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+      </header>
+
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About us<h1>
+                </div>
+                <div class="content">
+                    <h3> ZEST IN EVERY ZIP - TASTE THE SUNSHINE IN EVERY DROP!</h3>
+                    <p>     People sell freshly prepared lemonade to onlookers from a tiny, improvised setup that is usually
+                        outside at a lemonade stand. Lemonade is usually served from pitchers and cups, and occasionally
+                        extras like snacks or napkins are included. The lemonade is usually presented on a table or
+                        stand.
+                        Signs promoting the lemonade and prices are frequently adorned with vibrant graphics at the
+                        stand. While they can also be found at festivals, parks, or on busy streets, lemonade stands are
+                        typically operated by kids as a summertime business venture.</p>
+                         <div class="button">
+                            <a href="">Read More</a>
+                         </div>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/profile.php?id=100083142796428&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                    <a href=""><i class='bx bxl-tiktok'></i></a>
+                    <a href=""><i class='bx bxl-instagram'></i></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="images/imageaboutus.png">
+
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const header = document.querySelector("header");
+        const hamburgerBtn = document.querySelector("#hamburger-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+  
+        hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+  
+      
+        closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+      </script>
+
+</body>
+
+</html>
